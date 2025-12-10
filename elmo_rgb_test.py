@@ -68,7 +68,8 @@ if __name__ == '__main__':
         sys.exit(1)
 
     # 3. Generate or define the input image
-    image_filename = "img_1.png"
+    image_filename = "Emotions/check.png"
+    image_1_filename = "Emotions/remove.png"
 
     if not os.path.exists(image_filename):
         # Create a dummy image (Red background, Blue center)
